@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  node-docker:
+    image: node-server-app
+    restart: always
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 80:80
+    links:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017

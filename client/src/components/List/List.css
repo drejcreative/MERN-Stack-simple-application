@@ -1,0 +1,4 @@
+.list__actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; }
