@@ -3,7 +3,7 @@
 ![Adding new](1.png)
 
 This is simple **MERN stack** Application, something like a boilerplate for future development. 
-**Mongo** is used for database, backend is builed on top of **NodeJs** with **ExpressJs**. We used latest Node 10 with es6 syntax with `--experimental-modules` flag. Frontend is **React** with **Redux** for state managment. 
+**Mongo** is used for database, backend is built on top of **NodeJs** with **ExpressJs**. We used latest Node 10 with es6 syntax with `--experimental-modules` flag. Frontend is **React** with **Redux** for state management. 
 
 Database has own **Docker** container, and Frontend and backend part are in another **Docker** container.
 
